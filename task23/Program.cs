@@ -4,12 +4,11 @@ int n = Convert.ToInt32(Console.ReadLine());
 int m = 0;
 if (n != 0)
 {
-    for (int i = 1; i < n; i++) 
+    for (int i = 1; i < n + 1; i++)
     {
-        m = n*n*n;
-        
-    
+        m = i*i*i;
+        Console.Write(m + " ");
     }
-    Console.Write(m);
 }
+
 else Console.Write("ноль использовать нельзя!");
